@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    background: #F9BDD2;
+}
+
+.header{
+    text-align: center;
+    color:black;
+    margin: 40px 0px 0px 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+/*.card{
+    
+    border-radius: 20px;    
+}*/
+
+.card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #F71C6D ;
+}
+
+.card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.card .card-content{
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items:center;
+    text-align: center;
+}
+.name-description{
+   overflow-wrap: break-word;
+    
+}
+.slick-next{   
+   
+    margin-left: 50px;
+    padding: 15px;
+    background: #F71C6D;
+    color: white;
+    border: none;
+    transition: transform .3s;
+}
+.slick-prev{
+    margin-left: 50px;
+    padding: 15px;
+    background: #F71C6D;
+    color:white;
+    border:none;
+    transition: transform .3s;
+}
+.content{
+    
+    margin: 60px 0px 70px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: transform .3s;
+    
+}
+a:hover{
+    transform: scale(1.5);
+}
+.slick-next:hover{
+    transform: scale(1.5);
+}
+.slick-prev:hover{
+    transform: scale(1.5);
+}
+
+.slick-dots {
+    
+	display: flex;
+	justify-content: center;
+	
+	margin: 0;
+	padding: 1rem 0;
+	
+	list-style-type: none;
+
+        
+}	
+
+.slick-dots li{
+    margin: 0 0.25rem;
+}	
+
+.slick-dots button {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	padding: 0;
+			
+	border: none;
+	border-radius: 100%;
+	background-color: blue;
+			
+	text-indent: -9999px;
+	}
+
+
+.slick-active button {
+    background-color: #F71C6D;
+    }
+
+
+	
+		
+	
+
+
+
